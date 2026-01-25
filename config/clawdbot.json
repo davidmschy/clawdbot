@@ -1,0 +1,18 @@
+{
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "google/gemini-3-flash-preview"
+      }
+    }
+  },
+  "models": {
+    "providers": {
+      "google": {
+        "baseUrl": "https://generativelanguage.googleapis.com",
+        "apiKey": "${Gemini_API_Key}",
+        "api": "google-generative-ai"
+      }
+    }
+  }
+}
